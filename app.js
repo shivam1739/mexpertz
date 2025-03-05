@@ -13,7 +13,7 @@ const uri = process.env.MONGODB_URI
 // Middleware for parsing JSON and URL-encoded data
 app.use(cors({
       credentials: true,
-      origin: process.env.FRONTEND_BASE_URL,
+      // origin: process.env.FRONTEND_BASE_URL,
 }));
 
 app.use(express.json());
